@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+    font-size: 110%;
+    box-shadow: 0px 3px 10px 0px grey;
+}
+
+.lista {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.listaItem {
+    margin-right: 5%;
+}
