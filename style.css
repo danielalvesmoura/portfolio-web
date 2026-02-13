@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
 }
 
 .nav {
@@ -20,4 +21,27 @@
 
 .listaItem {
     margin-right: 5%;
+}
+
+.conteiner-externo {
+    padding: 6%;
+}
+
+.conteiner-sobremim {
+    display: flex;
+    border: 10px solid black;
+}
+
+.conteiner-sobremim-texto {
+    padding: 3%;
+}
+
+.titulo {
+    font-size: 5rem;
+    
+}
+
+.texto {
+    font-size: 3rem;
+    text-align: justify;
 }
