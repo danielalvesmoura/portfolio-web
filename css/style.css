@@ -29,7 +29,7 @@
 
 .conteiner-sobremim {
     display: flex;
-    border: 10px solid black;
+    /*border: 10px solid black;*/
 }
 
 .conteiner-sobremim-texto {
@@ -44,4 +44,8 @@
 .texto {
     font-size: 3rem;
     text-align: justify;
+}
+
+.conteiner-projetos {
+    background-color: black;
 }
