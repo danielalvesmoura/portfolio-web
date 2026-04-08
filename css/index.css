@@ -1,0 +1,12 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+body, p {
+    margin: 0;
+}

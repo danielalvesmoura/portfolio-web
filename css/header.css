@@ -1,53 +1,42 @@
-* {
-    font-family: "Space Grotesk", sans-serif;
-    color: white;
-}
-
-li {
-    list-style: none;
-}
-
-body {
-    margin: 0;
-}
-
-header {
+#navbar {
     background-color: #040C1E;
     padding: .7rem 2rem;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* position: fixed; */
 }
 
-header h1 {
+#navbar h1 {
     color: #22D3EE;
     margin: 0;
 }
 
-header ul {
+#navbar ul {
     display: flex;
     gap: 2rem;
     margin: 0;
 }
 
-header li {
+#navbar li {
     color: #94A3B8;
     padding: .5rem 0;
 }
 
-header li:hover {
+#navbar li:hover {
     color: #22D3EE;
     border-bottom: 2px solid #22D3EE;
     cursor: pointer;
 }
 
-header li.active {
+#navbar li.active {
     color: #22D3EE;
     border-bottom: 2px solid #22D3EE;
 }
 
-header button {
+#navbar button {
     background-color: #2A354B;
     border: none;
     height: fit-content;
@@ -57,14 +46,14 @@ header button {
     cursor: pointer;
 }
 
-header button span {
+#navbar button span {
     color: #8D9CB1;
     font-weight: 900;
     padding: .3rem 1rem;
     border-radius: 1rem;
 }
 
-header button span.active {
+#navbar button span.active {
     background-color: #00DAF3;
     color: #2A354B;
 }
