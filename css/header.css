@@ -1,0 +1,70 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #040C1E;
+    padding: .7rem 2rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #22D3EE;
+    margin: 0;
+}
+
+header ul {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+}
+
+header li {
+    color: #94A3B8;
+    padding: .5rem 0;
+}
+
+header li:hover {
+    color: #22D3EE;
+    border-bottom: 2px solid #22D3EE;
+    cursor: pointer;
+}
+
+header li.active {
+    color: #22D3EE;
+    border-bottom: 2px solid #22D3EE;
+}
+
+header button {
+    background-color: #2A354B;
+    border: none;
+    height: fit-content;
+    padding: 0.4rem;
+    height: 2.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+header button span {
+    color: #8D9CB1;
+    font-weight: 900;
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+}
+
+header button span.active {
+    background-color: #00DAF3;
+    color: #2A354B;
+}
