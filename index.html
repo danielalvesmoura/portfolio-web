@@ -32,10 +32,10 @@
         <button onclick="changeLanguage()">
             <span id="btn-pt" class="active">PT</span>
             <span id="btn-en">EN</span>
-            <script src="js/language.js"></script>
+            
         </button>
         
-        <script src="js/header.js"></script>
+        
     </header>
 
     <main>
@@ -108,6 +108,23 @@
             </main>
 
         </section>
+
+        <section id="skills"></section>
+        <section id="education"></section>
+        <section id="contact"></section>
     </main>
+
+    <nav id="navbar-mobile">
+        <ul>
+            <li><a href="#about" data-i18n="header_about" class="active nav-link"></a></li>
+            <li><a href="#projects" data-i18n="header_projects" class="nav-link"></a></li>
+            <li><a href="#skills" data-i18n="header_skills" class="nav-link"></a></li>
+            <li><a href="#education" data-i18n="header_education" class="nav-link"></a></li>
+            <li><a href="#contact" data-i18n="header_contact" class="nav-link"></a></li>
+        </ul>
+    </nav>
+
+    <script src="js/language.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>

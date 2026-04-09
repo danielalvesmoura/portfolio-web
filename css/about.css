@@ -64,3 +64,47 @@
     background-color: #00DAF3;
     color: #1F2A3F;
 }
+
+@media (max-width: 768px) {
+    #about {
+        flex-direction: column;  
+    }
+
+    #about div {
+        width: 100%;
+        padding: 0 2rem;
+        order: 2;
+    }
+
+    #about p {
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+
+    #about img {
+        height: 15rem;
+        order: 1;
+        margin-bottom: 2rem;
+    }
+
+    #about h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1076px) {
+    #about {
+        flex-direction: column;  
+    }
+
+    #about div {
+        order: 2;
+        width: 100%;
+    }
+
+    #about img {
+        order: 1;
+        height: 20rem;
+    }
+
+}
