@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KINETIC_ARCHITECT</title>
 
-    
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/skills.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,74 +43,108 @@
         <section id="about">
             <div>
                 <header>
-                    <p data-i18n="about_subtitle" class="subtitulo">ENGENHEIRO DE SOFTWARE</p>
-                    <h1 data-i18n="about_title">Olá! Eu sou um <span>Engenheiro de Software</span> em formação.</h1>
+                    <p data-i18n="about_subtitle" class="subtitulo"></p>
+                    <h1 data-i18n="about_title"></h1>
                 </header>
 
-                <p data-i18n="about_description">
-                    Construindo sistemas escaláveis e experiências digitais precisas.
-                    Focado na arquitetura de soluções modernas que transformam
-                    código em valor tangível.
-                </p>
+                <p data-i18n="about_description"></p>
 
                 <nav>
-                    <a class="active" data-i18n="about_see_projects">Ver Projetos</a> 
-                    <a data-i18n="about_curriculum">Currículo</a>
+                    <a class="active" data-i18n="about_see_projects"></a> 
+                    <a data-i18n="about_curriculum"></a>
                 </nav>
             </div>
             
             <figure>
-                <img src="assets/img/foto.jpg" alt="Foto grande de Daniel Alves Moura">
+                <img src="assets/img/profile-picture.jpg" alt="Foto grande de Daniel Alves Moura">
             </figure>
         </section>
 
         <section id="projects">
             
             <header>
-                <p>PORTFÓLIO SELECIONADO</p>
-                <h1>Arquitetura de Projetos</h1>
+                <p data-i18n="projects_header_title"></p>
+                <h1 data-i18n="projects_header_subtitle"></h1>
             </header>
 
-            <main>
+            <div>
                 <article>
                     <div>
                         <header>
-                            <p data-i18n="projects_subtitle">JOGO EM HTML, CSS E JAVASCRIPT</p>
-                            <h2 data-i18n="projects_title">Jogo da Memória</h2>
+                            <p data-i18n="projects_subtitle"></p>
+                            <h2 data-i18n="projects_title"></h2>
                         </header>
 
-                        <p data-i18n="projects_description">Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.</p>
+                        <p data-i18n="projects_description"></p>
                         
                         <nav>
-                            <a data-i18n="projects_see_details">Ver Detalhes</a>
+                            <a data-i18n="projects_see_details"></a>
                         </nav>
                     </div>
 
                     <figure>
-                        <img id="img-memory" src="assets/img/jogodamemoria.png" alt="Foto do jogo da memória">
+                        <img id="img-memory" src="assets/img/memory-game.png" alt="Foto do jogo da memória">
                     </figure>
                 </article>
 
                 <article>
                     <div>
-                        <p data-i18n="projects_subtitle">JOGO EM HTML, CSS E JAVASCRIPT</p>
-                        <h2 data-i18n="projects_title">Jogo da Memória</h2>
-                        <p data-i18n="projects_description">Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.</p>
+                        <p data-i18n="projects_subtitle"></p>
+                        <h2 data-i18n="projects_title"></h2>
+                        <p data-i18n="projects_description"></p>
                     </div>
                 </article>
 
                 <article>
                     <div>
-                        <p data-i18n="projects_subtitle">GAME IN HTML, CSS AND JAVASCRIPT</p>
-                        <h2 data-i18n="projects_title">Memory Game</h2>
-                        <p data-i18n="projects_description">A classic memory game developed with HTML, CSS and JavaScript.</p>
+                        <p data-i18n="projects_subtitle"></p>
+                        <h2 data-i18n="projects_title"></h2>
+                        <p data-i18n="projects_description"></p>
                     </div>
                 </article>
-            </main>
+            </div>
 
         </section>
 
-        <section id="skills"></section>
+        <section id="skills">
+            <header>
+                <p data-i18n="skills_subtitle"></p>
+                <h1 data-i18n="skills_title"></h1>
+            </header>
+
+            <ul>
+                <li class="skills_card">
+                    <img src="assets/img/icon-react.png" alt="Ícone do React">
+                    <p>REACT</p>
+                </li>
+                <li class="skills_card">
+                    <img src="assets/img/icon-python.png" alt="Ícone do Python">
+                    <p>PYTHON</p>
+                </li>
+                <li class="skills_card">
+                    <img src="assets/img/icon-database.png" alt="Ícone do Banco de Dados">
+                    <p>SQL</p>
+                </li>
+                <li class="skills_card">
+                    <img src="assets/img/icon-java.png" alt="Ícone do Java">
+                    <p>JAVA</p>
+                </li>
+                <li class="skills_card">
+                    <img src="assets/img/icon-html.png" alt="Ícone do HTML">
+                    <p>HTML</p>
+                </li>
+                <li class="skills_card">
+                    <img src="assets/img/icon-css.png" alt="Ícone do CSS">
+                    <p>CSS</p>
+                </li>
+                <li class="skills_card">
+                    <img src="assets/img/icon-js.png" alt="Ícone do JavaScript">
+                    <p>JAVASCRIPT</p>
+                </li>
+            </ul>
+        </section>
+
+
         <section id="education"></section>
         <section id="contact"></section>
     </main>

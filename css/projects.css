@@ -13,7 +13,7 @@
     margin-bottom: 5rem;
 }
 
-#projects main {
+#projects div {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap:2rem;
@@ -37,7 +37,7 @@
     width: 100%;
 }
 
-#projects div {
+#projects article div {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -54,7 +54,7 @@
 }
 
 @media (max-width: 768px) {
-    #projects main {
+    #projects div {
         grid-template-columns: 1fr;
     }
 
@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 1076px) {
-    #projects main {
+    #projects div {
         grid-template-columns: 1fr;
     }
 

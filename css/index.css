@@ -1,6 +1,7 @@
 * {
     font-family: "Space Grotesk", sans-serif;
     color: white;
+    box-sizing: border-box;
 }
 
 li {
@@ -13,5 +14,13 @@ a {
 
 body, p {
     margin: 0;
+}
+
+main {
+    padding-bottom: 4rem;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 

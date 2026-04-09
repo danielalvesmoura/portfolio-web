@@ -51,10 +51,15 @@ const translation = {
         about_see_projects: 'Ver projetos',
         about_curriculum: 'Currículo',
 
+        projects_header_title: 'PORTFÓLIO SELECIONADO',
+        projects_header_subtitle: 'Arquitetura de Projetos',
         projects_subtitle: 'JOGO EM HTML, CSS E JAVASCRIPT',
         projects_title: 'Jogo da Memória',
         projects_description: 'Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.',
         projects_see_details: 'Ver Detalhes',
+
+        skills_subtitle: 'CONSTANTE APRENDIZADO',
+        skills_title: 'Minhas <span>Habilidades</span>',
     },
 
     en: {
@@ -70,9 +75,14 @@ const translation = {
         about_see_projects: 'See projects',
         about_curriculum: 'Curriculum',
 
+        projects_header_title: 'SELECTED PORTFOLIO',
+        projects_header_subtitle: 'Project Architecture',
         projects_subtitle: 'GAME IN HTML, CSS AND JAVASCRIPT',
         projects_title: 'Memory Game',
         projects_description: 'A classic memory game developed with HTML, CSS and JavaScript.',
         projects_see_details: 'See Details',
+
+        skills_subtitle: 'CONSTANT LEARNING',
+        skills_title: 'My <span>Skills</span>',
     }
 }
