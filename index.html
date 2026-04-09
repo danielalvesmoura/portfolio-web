@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KINETIC_ARCHITECT</title>
 
-    <link rel="stylesheet" href="css/index.css">
+    
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,37 +21,40 @@
 
         <nav>
             <ul>
-                <li class="active">Home</li>
-                <li>Projetos</li>
-                <li>Habilidades</li>
-                <li>Formação</li>
-                <li>Contato</li>
+                <li><a href="#about" data-i18n="header_about" class="active nav-link"></a></li>
+                <li><a href="#projects" data-i18n="header_projects" class="nav-link"></a></li>
+                <li><a href="#skills" data-i18n="header_skills" class="nav-link"></a></li>
+                <li><a href="#education" data-i18n="header_education" class="nav-link"></a></li>
+                <li><a href="#contact" data-i18n="header_contact" class="nav-link"></a></li>
             </ul>
         </nav>
 
-        <button>
-            <span class="active">PT</span>
-            <span>EN</span>
+        <button onclick="changeLanguage()">
+            <span id="btn-pt" class="active">PT</span>
+            <span id="btn-en">EN</span>
+            <script src="js/language.js"></script>
         </button>
+        
+        <script src="js/header.js"></script>
     </header>
 
     <main>
         <section id="about">
             <div>
                 <header>
-                    <p>ENGENHEIRO DE SOFTWARE</p>
-                    <h1>Olá! Eu sou um <span>Engenheiro de Software</span> em formação.</h1>
+                    <p data-i18n="about_subtitle" class="subtitulo">ENGENHEIRO DE SOFTWARE</p>
+                    <h1 data-i18n="about_title">Olá! Eu sou um <span>Engenheiro de Software</span> em formação.</h1>
                 </header>
 
-                <p>
+                <p data-i18n="about_description">
                     Construindo sistemas escaláveis e experiências digitais precisas.
                     Focado na arquitetura de soluções modernas que transformam
                     código em valor tangível.
                 </p>
 
                 <nav>
-                    <a class="active">Ver Projetos</a> 
-                    <a>Currículo</a>
+                    <a class="active" data-i18n="about_see_projects">Ver Projetos</a> 
+                    <a data-i18n="about_curriculum">Currículo</a>
                 </nav>
             </div>
             
@@ -60,15 +64,48 @@
         </section>
 
         <section id="projects">
-            <div>
-                <header>
-                    <p>PORTFÓLIO SELECIONADO</p>
-                    <h1>Arquitetura de Projetos</h1>
-                </header>
+            
+            <header>
+                <p>PORTFÓLIO SELECIONADO</p>
+                <h1>Arquitetura de Projetos</h1>
+            </header>
 
-                <main>
-                    
-                </main>
+            <main>
+                <article>
+                    <div>
+                        <header>
+                            <p data-i18n="projects_subtitle">JOGO EM HTML, CSS E JAVASCRIPT</p>
+                            <h2 data-i18n="projects_title">Jogo da Memória</h2>
+                        </header>
+
+                        <p data-i18n="projects_description">Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.</p>
+                        
+                        <nav>
+                            <a data-i18n="projects_see_details">Ver Detalhes</a>
+                        </nav>
+                    </div>
+
+                    <figure>
+                        <img id="img-memory" src="assets/img/jogodamemoria.png" alt="Foto do jogo da memória">
+                    </figure>
+                </article>
+
+                <article>
+                    <div>
+                        <p data-i18n="projects_subtitle">JOGO EM HTML, CSS E JAVASCRIPT</p>
+                        <h2 data-i18n="projects_title">Jogo da Memória</h2>
+                        <p data-i18n="projects_description">Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <p data-i18n="projects_subtitle">GAME IN HTML, CSS AND JAVASCRIPT</p>
+                        <h2 data-i18n="projects_title">Memory Game</h2>
+                        <p data-i18n="projects_description">A classic memory game developed with HTML, CSS and JavaScript.</p>
+                    </div>
+                </article>
+            </main>
 
         </section>
     </main>

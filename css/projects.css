@@ -1,3 +1,54 @@
 #projects {
     background-color: #101B30;
+    padding: 5rem 2rem; 
+}
+
+#projects header p {
+    color: #00DAF3;
+    font-size: 1rem;
+}
+
+#projects header h1 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+#projects main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:2rem;
+}
+
+#projects article {
+    display: flex;
+
+    background-color: #1F2A3F;
+    border-radius: 1rem;
+    padding: 3rem 3rem;
+
+    transition: 0.2s;
+}
+
+#projects article:hover {
+    box-shadow: -.5rem 0 0 -0.1rem #00DAF3;
+}
+
+#img-memory {
+    width: 100%;
+}
+
+#projects div {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#projects a {
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #00DAF3;
+    color: #1F2A3F;
+    border: none;
 }
