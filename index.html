@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/education.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +57,7 @@
             </div>
             
             <figure>
-                <img src="assets/img/profile-picture.jpg" alt="Foto grande de Daniel Alves Moura">
+                <img src="assets/img/profile-picture.jpg" data-i18n="about_img_alt" alt="">
             </figure>
         </section>
 
@@ -83,7 +84,7 @@
                     </div>
 
                     <figure>
-                        <img id="img-memory" src="assets/img/memory-game.png" alt="Foto do jogo da memória">
+                        <img id="img-memory" src="assets/img/memory-game.png" data-i18n="projects_memory_alt" alt="">
                     </figure>
                 </article>
 
@@ -114,38 +115,63 @@
 
             <ul>
                 <li class="skills_card">
-                    <img src="assets/img/icon-react.png" alt="Ícone do React">
+                    <img src="assets/img/icon-react.png" data-i18n="skills_react_alt" alt="">
                     <p>REACT</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-python.png" alt="Ícone do Python">
+                    <img src="assets/img/icon-python.png" data-i18n="skills_python_alt" alt="">
                     <p>PYTHON</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-database.png" alt="Ícone do Banco de Dados">
+                    <img src="assets/img/icon-database.png" data-i18n="skills_database_alt" alt="">
                     <p>SQL</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-java.png" alt="Ícone do Java">
+                    <img src="assets/img/icon-java.png" data-i18n="skills_java_alt" alt="">
                     <p>JAVA</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-html.png" alt="Ícone do HTML">
+                    <img src="assets/img/icon-html.png" data-i18n="skills_html_alt" alt="">
                     <p>HTML</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-css.png" alt="Ícone do CSS">
+                    <img src="assets/img/icon-css.png" data-i18n="skills_css_alt" alt="">
                     <p>CSS</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-js.png" alt="Ícone do JavaScript">
+                    <img src="assets/img/icon-js.png" data-i18n="skills_js_alt" alt="">
                     <p>JAVASCRIPT</p>
                 </li>
             </ul>
         </section>
+            
+        <section id="education">
+            <header>
+                <p data-i18n="education_subtitle" class="subtitle"></p>
+                <h1 data-i18n="education_title"></h1>
+                <p data-i18n="education_description" class="description"></p>
+            </header>
 
+            <div>
+                <img id="education_ifpr" src="assets/img/ifpr.png" data-i18n="education_ifpr_alt" alt="">
+                <div id="education_top_card">
+                    <div id="education_cap_conteiner">
+                        <img id="education_studant_cap" src="assets/img/studant-cap.png" data-i18n="education_studant_cap_alt" alt="">
+                    </div>
+                    
+                    <p>Instituto Federal do Paraná Campus Paranavaí</p>
+                    <p>BACHARELADO EM ENGENHARIA DE SOFTWARE</p>
+                </div>
+                <ul>
+                    <li>
+                        <img src="" alt="">
+                        <p>2024 - Presente (Expectitiva 2027)</p>
+                        <p>Paranavaí, Paraná, Brasil</p>
+                    </li>
+                </ul>
+            </div>
 
-        <section id="education"></section>
+        </section>
         <section id="contact"></section>
     </main>
 

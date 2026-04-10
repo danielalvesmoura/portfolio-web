@@ -1,0 +1,47 @@
+#education {
+    background-color: var(--bg-light);
+    padding: 5rem 2rem;
+}
+
+#education .subtitle {
+    background-color: var(--bg-dark);
+    color: var(--main-blue);
+    font-size: 1rem;
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+#education header h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#education .description {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #b7b9be;
+    margin-bottom: 4rem;
+}
+
+#education_ifpr {
+    z-index: 0;
+    width: 100%;
+}
+
+#education_top_card {
+    display: flex;
+}
+
+#education_cap_conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 1rem;
+    background-color: #2A354B;
+}
+
+#education_studant_cap {
+    width: 2rem; 
+}

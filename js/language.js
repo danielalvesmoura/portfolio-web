@@ -24,10 +24,16 @@ function changeLanguage() {
 
 function setLanguage() {
     const elements = document.querySelectorAll("[data-i18n]");
+    const elementsAlt = document.querySelectorAll("[data-i18n], [alt]");
 
     elements.forEach(element => {
         const key = element.getAttribute("data-i18n");
         element.innerHTML = translation[language][key];
+    });
+
+    elementsAlt.forEach(element => {
+        const key = element.getAttribute("data-i18n");
+        element.alt = translation[language][key];
     });
 }
 
@@ -50,6 +56,7 @@ const translation = {
         about_description: 'Construindo sistemas escaláveis e experiências digitais precisas. Focado na arquitetura de soluções modernas que transformam código em valor tangível.',
         about_see_projects: 'Ver projetos',
         about_curriculum: 'Currículo',
+        about_img_alt: 'Foto grande de Daniel Alves Moura',
 
         projects_header_title: 'PORTFÓLIO SELECIONADO',
         projects_header_subtitle: 'Arquitetura de Projetos',
@@ -57,9 +64,21 @@ const translation = {
         projects_title: 'Jogo da Memória',
         projects_description: 'Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.',
         projects_see_details: 'Ver Detalhes',
+        projects_memory_alt: 'Foto do jogo da memória',
 
         skills_subtitle: 'CONSTANTE APRENDIZADO',
         skills_title: 'Minhas <span>Habilidades</span>',
+        skills_react_alt: 'Ícone do React',
+        skills_python_alt: 'Ícone do Python',
+        skills_database_alt: 'Ícone do Banco de Dados',
+        skills_java_alt: 'Ícone do Java',
+        skills_html_alt: 'Ícone do HTML',
+        skills_css_alt: 'Ícone do CSS',
+        skills_js_alt: 'Ícone do JavaScript',
+
+        education_subtitle: 'FORMAÇÃO ACADÊMICA',
+        education_title: 'Minha <span>Educação</span>',
+        education_description: 'Explorando os fundamentos da computação e arquitetura de software através de uma trajetória de excelência técnica.'
     },
 
     en: {
@@ -74,6 +93,7 @@ const translation = {
         about_description: 'Building scalable systems and precise digital experiences. Focused on modern solution architecture that transforms code into tangible value.',
         about_see_projects: 'See projects',
         about_curriculum: 'Curriculum',
+        about_img_alt: 'Large photo of Daniel Alves Moura',
 
         projects_header_title: 'SELECTED PORTFOLIO',
         projects_header_subtitle: 'Project Architecture',
@@ -81,8 +101,17 @@ const translation = {
         projects_title: 'Memory Game',
         projects_description: 'A classic memory game developed with HTML, CSS and JavaScript.',
         projects_see_details: 'See Details',
+        projects_memory_alt: 'Photo of the memory game',
+        
 
         skills_subtitle: 'CONSTANT LEARNING',
         skills_title: 'My <span>Skills</span>',
+        skills_react_alt: 'Icon of React',
+        skills_python_alt: 'Icon of Python',
+        skills_database_alt: 'Icon of Database',
+        skills_java_alt: 'Icon of Java',
+        skills_html_alt: 'Icon of HTML',
+        skills_css_alt: 'Icon of CSS',
+        skills_js_alt: 'Icon of JavaScript'
     }
 }
