@@ -31,6 +31,7 @@
 
 #education_top_card {
     display: flex;
+    gap: 1rem;
 }
 
 #education_cap_conteiner {
@@ -40,8 +41,35 @@
 
     padding: 1rem 1rem;
     background-color: #2A354B;
+    border-radius: .5rem;
+    width: 8rem;
 }
 
 #education_studant_cap {
-    width: 2rem; 
+    width: 3rem; 
 }
+
+#education_college_title {
+ font-size: 1.7rem;
+}
+
+#education_course_title {
+ font-size: 1.2rem;
+ color: var(--main-blue);
+}
+
+#education li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#education li p {
+    font-size: 1.4rem;
+    color: #C4C6CC;
+}
+
+#education li img {
+    height: 2rem;
+}
+

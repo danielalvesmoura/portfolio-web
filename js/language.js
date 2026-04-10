@@ -112,6 +112,8 @@ const translation = {
         skills_java_alt: 'Icon of Java',
         skills_html_alt: 'Icon of HTML',
         skills_css_alt: 'Icon of CSS',
-        skills_js_alt: 'Icon of JavaScript'
+        skills_js_alt: 'Icon of JavaScript',
+
+        
     }
 }
