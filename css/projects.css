@@ -27,6 +27,10 @@
     width: 60%;
 }
 
+#projects article:last-child {
+  grid-column: 1 / -1;
+}
+
 #projects article {
     display: flex;
     flex-direction: column;

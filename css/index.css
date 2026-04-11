@@ -21,13 +21,13 @@ body, p {
     margin: 0;
 }
 
-html {
-    scroll-behavior: smooth;
+body {
+    background-color: #030B1D;
 }
 
 @media (max-width: 995px) {
     main {
-        padding-bottom: 4rem;
+        padding-bottom: 2.5rem;
     }
 }
 

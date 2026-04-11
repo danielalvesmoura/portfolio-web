@@ -14,6 +14,10 @@
     margin-top: 2rem;
 }
 
+#github_card p {
+    font-size: 1.5rem;
+}
+
 #github_card span {
     color: var(--main-blue);
 }
