@@ -227,34 +227,37 @@
             <article id="contact_form">
                 <form id="form_container" novalidate>
                     <fieldset class="form_content">
-                        <legend class="sr_only">Formulário de contato</legend>
+                        <legend id="form_title">Formulário de contato</legend>
                         
                         <div class="form_field">
-                            <label for="nome">Nome completo</label>
-                            <input id="nome" name="from_name" type="text" placeholder="Digite seu nome completo" required aria-describedby="name_error" />
-                            <small id="name_error" aria-live="polite"></small>
+                            <label for="name">Nome completo</label>
+                            <input id="name" name="from_name" type="text" placeholder="Digite seu nome completo" required aria-describedby="name_error" />
+                            <small class="input_error" id="name_error" aria-live="polite"></small>
                         </div>
 
                         <div class="form_field">
                             <label for="email">E-mail</label>
                             <input id="email" name="reply_to" type="email" placeholder="exemplo@email.com" required aria-describedby="email_error" />
-                            <small id="email_error" aria-live="polite"></small>
+                            <small class="input_error" id="email_error" aria-live="polite"></small>
                         </div>
                         </div>
 
                         <div class="form_field">
-                            <label for="assunto">Assunto</label>
-                            <input id="assunto" name="subject" type="text" placeholder="Ex: Dúvida sobre a plataforma" required aria-describedby="subject_error" />
-                            <small id="subject_error" aria-live="polite"></small>
+                            <label for="subject">Assunto</label>
+                            <input id="subject" name="subject" type="text" placeholder="Ex: Dúvida sobre a plataforma" required aria-describedby="subject_error" />
+                            <small class="input_error" id="subject_error" aria-live="polite"></small>
                         </div>
 
                         <div class="form_field">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="message" placeholder="Descreva suas necessidades..." required aria-describedby="message_error"></textarea>
-                            <small id="message_error" aria-live="polite"></small>
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" placeholder="Descreva suas necessidades..." required aria-describedby="message_error"></textarea>
+                            <small class="input_error" id="message_error" aria-live="polite"></small>
                         </div>
 
-                        <button type="submit">Enviar mensagem</button>
+                        
+
+                        <button type="submit">Enviar</button>
+                        <small id="submit_message" aria-live="polite"></small>
                     </fieldset>
                 </form>
             </article>
@@ -274,5 +277,6 @@
 
     <script src="js/language.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>

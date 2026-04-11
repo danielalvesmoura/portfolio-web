@@ -89,7 +89,13 @@ const translation = {
         education_studant_cap_alt: 'Ícone de um chapéu de formatura',
 
         contact_subtitle: 'VAMOS CONVERSAR?',
-        contact_title: 'Entre em <span>Contato</span>'
+        contact_title: 'Entre em <span>Contato</span>',
+
+        contact_name_error: 'É obrigatório preencher o nome.',
+        contact_email_error: 'É obrigatório preencher o email.',
+        contact_email_invalid_error: 'Por favor, insira um email válido.',
+        contact_subject_error: 'É obrigatório preencher o assunto.',
+        contact_message_error: 'É obrigatório preencher a mensagem.'
     },
 
     en: {
@@ -136,6 +142,5 @@ const translation = {
         education_course_location: 'Paranavaí, Paraná, Brazil',
         education_ifpr_alt: 'Photo of the Federal Institute of Paraná entrance',
         education_studant_cap_alt: 'Graduation cap icon'
-
     }
 }
