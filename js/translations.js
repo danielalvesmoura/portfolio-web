@@ -15,11 +15,15 @@ export const translations = {
 
         projects_header_title: 'PORTFÓLIO SELECIONADO',
         projects_header_subtitle: 'Arquitetura de Projetos',
-        projects_subtitle: 'JOGO EM HTML, CSS E JAVASCRIPT',
-        projects_title: 'Jogo da Memória',
-        projects_description: 'Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.',
+        projects_memory_subtitle: 'JOGO EM HTML, CSS E JAVASCRIPT',
+        projects_portalx_subtitle: 'SISTEMA EM JAVAFX E PERSISTENCE',
+        projects_memory_title: 'Jogo da Memória',
+        projects_portalx_title: 'Portal X',
+        projects_memory_description: 'Um jogo clássico de memória desenvolvido com HTML, CSS e JavaScript.',
+        projects_portalx_description: 'Um sistema moderno para gerenciamento de eventos corporativos.',
         projects_see_details: 'Ver Detalhes',
         projects_memory_alt: 'Foto do jogo da memória',
+        projects_portalx_alt: 'Foto do PortalX',
 
         skills_subtitle: 'CONSTANTE APRENDIZADO',
         skills_title: 'Minhas <span>Habilidades</span>',
@@ -89,11 +93,15 @@ export const translations = {
 
         projects_header_title: 'SELECTED PORTFOLIO',
         projects_header_subtitle: 'Project Architecture',
-        projects_subtitle: 'GAME IN HTML, CSS AND JAVASCRIPT',
-        projects_title: 'Memory Game',
-        projects_description: 'A classic memory game developed with HTML, CSS and JavaScript.',
+        projects_memory_subtitle: 'GAME IN HTML, CSS AND JAVASCRIPT',
+        projects_portalx_subtitle: 'SYSTEM IN JAVAFX AND PERSISTENCE',
+        projects_memory_title: 'Memory Game',
+        projects_portalx_title: 'Portal X',
+        projects_memory_description: 'A classic memory game developed with HTML, CSS and JavaScript.',
+        projects_portalx_description: 'A modern system for corporate event management.',
         projects_see_details: 'See Details',
         projects_memory_alt: 'Photo of the memory game',
+        projects_portalx_alt: 'Photo of PortalX',
         
 
         skills_subtitle: 'CONSTANT LEARNING',

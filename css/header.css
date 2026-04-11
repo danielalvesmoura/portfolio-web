@@ -40,10 +40,12 @@
     transition: 0.2s;
 }
 
-#navbar a:hover {
-    color: #22D3EE;
-    border-bottom: 2px solid #22D3EE;
-    cursor: pointer;
+@media (hover: hover) and (pointer: fine) {
+    #navbar a:hover {
+        color: #22D3EE;
+        border-bottom: 2px solid #22D3EE;
+        cursor: pointer;
+    }
 }
 
 #navbar a.active {
@@ -108,28 +110,22 @@
         width: 100%;
     }
 
+    #navbar_mobile a.active {
+        color: #22D3EE;
+        border-bottom: 2px solid #22D3EE;
+    }
+
     #navbar_mobile a {
         color: #94A3B8;
         padding: .5rem 0;
         transition: 0.2s;
-    }
-
-    #navbar_mobile a:hover {
-        color: #22D3EE;
-        border-bottom: 2px solid #22D3EE;
-        cursor: pointer;
-    }
-
-    #navbar_mobile a.active {
-        color: #22D3EE;
-        border-bottom: 2px solid #22D3EE;
     }
 }
 
 
 
 
-@media (max-width: 542px) {
+@media (max-width: 573px) {
     #navbar nav {
         display: none;
     }
