@@ -73,29 +73,50 @@
     color: #2A354B;
 }
 
+@media (max-width: 542px) {
+    #navbar nav {
+        display: none;
+    }
+
+    #navbar h1 {
+        padding: 0;
+        font-size: 1.4rem;
+    }
+    
+}
+
 @media (max-width: 996px) {
 
-    #navbar {
+    #navbar * {
         padding: .7rem 1rem;
+        
+        z-index: 4;
     }
 
     #navbar ul {
         display: none;
+
+        z-index: 4;
     }
 
     #navbar-mobile {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: fixed;
         bottom: 0rem;
         background-color: #040C1E;
         width: 100%;
         height: 4rem;
+
+        z-index: 4;
     }
 
     #navbar-mobile ul {
         display: flex;
         justify-content: space-between;
         padding: 0 2rem;
+        width: 100%;
     }
 
     #navbar-mobile a {
@@ -115,3 +136,4 @@
         border-bottom: 2px solid #22D3EE;
     }
 }
+

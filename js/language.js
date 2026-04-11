@@ -78,7 +78,15 @@ const translation = {
 
         education_subtitle: 'FORMAÇÃO ACADÊMICA',
         education_title: 'Minha <span>Educação</span>',
-        education_description: 'Explorando os fundamentos da computação e arquitetura de software através de uma trajetória de excelência técnica.'
+        education_description: 'Explorando os fundamentos da computação e arquitetura de software através de uma trajetória de excelência técnica.',
+        education_college_title: 'Instituto Federal do Paraná Campus Paranavaí',
+        education_course_title: 'BACHARELADO EM ENGENHARIA DE SOFTWARE',
+        education_calendar_alt: 'Ícone de calendário',
+        education_course_duration: '2024 - Presente (Expectativa 2027)',
+        education_location_alt: 'Ícone de localização',
+        education_course_location: 'Paranavaí, Paraná, Brasil',
+        education_ifpr_alt: 'Foto da entrada do Instituto Federal do Paraná',
+        education_studant_cap_alt: 'Ícone de um chapéu de formatura'
     },
 
     en: {
@@ -114,6 +122,17 @@ const translation = {
         skills_css_alt: 'Icon of CSS',
         skills_js_alt: 'Icon of JavaScript',
 
-        
+        education_subtitle: 'ACADEMIC BACKGROUND',
+        education_title: 'My <span>Education</span>',
+        education_description: 'Exploring the fundamentals of computing and software architecture through a trajectory of technical excellence.',
+        education_college_title: 'Federal Institute of Paraná Campus Paranavaí',
+        education_course_title: 'BACHELOR IN SOFTWARE ENGINEERING',
+        education_calendar_alt: 'Calendar icon',
+        education_course_duration: '2024 - Present (Expectation 2027)',
+        education_location_alt: 'Location icon',
+        education_course_location: 'Paranavaí, Paraná, Brasil',
+        education_ifpr_alt: 'Photo of the Federal Institute of Paraná entrance',
+        education_studant_cap_alt: 'Graduation cap icon'
+
     }
 }
