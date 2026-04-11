@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -162,20 +163,20 @@
                             <img id="education_studant_cap" src="assets/img/studant_cap.png" data-i18n="education_studant_cap_alt" alt="">
                         </div>
                         <div>
-                            <p data-i18n="education_college_title" id="education_college_title">Instituto Federal do Paraná Campus Paranavaí</p>
-                            <p data-i18n="education_course_title" id="education_course_title">BACHARELADO EM ENGENHARIA DE SOFTWARE</p>
+                            <p data-i18n="education_college_title" id="education_college_title"></p>
+                            <p data-i18n="education_course_title" id="education_course_title"></p>
                         </div>   
                     </div>
 
                     <ul>
                         <li>
                             <img src="assets/img/icon_calendar.png" alt="" data-i18n="education_calendar_alt">
-                            <p data-i18n="education_course_duration">2024 - Presente (Expectitiva 2027)</p>
+                            <p data-i18n="education_course_duration"></p>
                         </li>
 
                         <li>
                             <img src="assets/img/icon_location.png" alt="" data-i18n="education_location_alt">
-                            <p data-i18n="education_course_location">Paranavaí, Paraná, Brasil</p>
+                            <p data-i18n="education_course_location"></p>
                         </li>
                     </ul>
                 </div>
@@ -183,7 +184,82 @@
             </div>
 
         </section>
-        <section id="contact"></section>
+
+        <section id="contact" aria-labelledby="contact_title">
+
+            <article>
+                <header>
+                    <p id="contact_subtitle" data-i18n="contact_subtitle"></p>
+                    <h1 data-i18n="contact_title"></h1>
+                    <p id="contact_description">
+                        Se interessou? Preencha o
+                        formulário e entrarei entrará em
+                        contato em breve.
+                    </p>
+                </header>
+
+                <ul>
+                    <li>
+                        <img src="assets/img/icon_email.png" alt="" data-i18n="contact_email_alt">
+                        <div>
+                            <p class="contact-card-title">E-mail</p>
+                            <p class="contact-card-text">danielalvesmoura2006@gmail.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/icon_phone.png" alt="" data-i18n="contact_phone_alt">
+                        <div>
+                            <p class="contact-card-title">Telefone</p>
+                            <p class="contact-card-text">(44) 98459-8683</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/icon_location_blue.png" alt="" data-i18n="contact_location_alt">
+                        <div>
+                            <p class="contact-card-title">Localização</p>
+                            <p class="contact-card-text">Paraíso do Norte, Paraná, Brasil</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+
+
+            <article id="contact_form">
+                <form id="form_container" novalidate>
+                    <fieldset class="form_content">
+                        <legend class="sr_only">Formulário de contato</legend>
+                        
+                        <div class="form_field">
+                            <label for="nome">Nome completo</label>
+                            <input id="nome" name="from_name" type="text" placeholder="Digite seu nome completo" required aria-describedby="name_error" />
+                            <small id="name_error" aria-live="polite"></small>
+                        </div>
+
+                        <div class="form_field">
+                            <label for="email">E-mail</label>
+                            <input id="email" name="reply_to" type="email" placeholder="exemplo@email.com" required aria-describedby="email_error" />
+                            <small id="email_error" aria-live="polite"></small>
+                        </div>
+                        </div>
+
+                        <div class="form_field">
+                            <label for="assunto">Assunto</label>
+                            <input id="assunto" name="subject" type="text" placeholder="Ex: Dúvida sobre a plataforma" required aria-describedby="subject_error" />
+                            <small id="subject_error" aria-live="polite"></small>
+                        </div>
+
+                        <div class="form_field">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="message" placeholder="Descreva suas necessidades..." required aria-describedby="message_error"></textarea>
+                            <small id="message_error" aria-live="polite"></small>
+                        </div>
+
+                        <button type="submit">Enviar mensagem</button>
+                    </fieldset>
+                </form>
+            </article>
+
+        </section>
     </main>
 
     <nav id="navbar_mobile">

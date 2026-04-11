@@ -1,0 +1,60 @@
+#contact {
+    background-color: var(--bg-dark);
+    padding: 6rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#contact header {
+    margin-bottom: 4rem;
+}
+
+#contact header span {
+    color: var(--main-blue);
+}
+
+#contact_subtitle {
+    background-color: #101B30;
+    color: var(--main-blue);
+    font-size: 1rem;
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+#contact_description {
+    color: #94A3B8;
+}
+
+#contact img {
+    height: 3rem;
+}
+
+#contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#contact li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#contact li div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact-card-title {
+    font-weight: 900;
+}
+
+.contact-card-text {
+    color: #94A3B8;
+}
+

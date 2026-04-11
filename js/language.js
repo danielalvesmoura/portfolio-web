@@ -86,7 +86,10 @@ const translation = {
         education_location_alt: 'Ícone de localização',
         education_course_location: 'Paranavaí, Paraná, Brasil',
         education_ifpr_alt: 'Foto da entrada do Instituto Federal do Paraná',
-        education_studant_cap_alt: 'Ícone de um chapéu de formatura'
+        education_studant_cap_alt: 'Ícone de um chapéu de formatura',
+
+        contact_subtitle: 'VAMOS CONVERSAR?',
+        contact_title: 'Entre em <span>Contato</span>'
     },
 
     en: {
@@ -130,7 +133,7 @@ const translation = {
         education_calendar_alt: 'Calendar icon',
         education_course_duration: '2024 - Present (Expectation 2027)',
         education_location_alt: 'Location icon',
-        education_course_location: 'Paranavaí, Paraná, Brasil',
+        education_course_location: 'Paranavaí, Paraná, Brazil',
         education_ifpr_alt: 'Photo of the Federal Institute of Paraná entrance',
         education_studant_cap_alt: 'Graduation cap icon'
 
