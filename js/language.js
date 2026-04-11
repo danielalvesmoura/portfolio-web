@@ -1,6 +1,6 @@
 let language = 'pt';
-const btn_pt = document.getElementById("btn-pt");
-const btn_en = document.getElementById("btn-en");
+const btn_pt = document.getElementById("btn_pt");
+const btn_en = document.getElementById("btn_en");
 
 function changeLanguage() {
     if(language == 'pt') {

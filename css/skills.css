@@ -64,11 +64,21 @@
     width: 10rem;
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
     #skills {
         padding: 6rem 2rem;
         padding-bottom: 10rem;
     }
 }
 
+@media (max-width: 334px) {
+    #skills header h1 {
+        font-size: 2rem;
+    }
+}
 
+@media (max-width: 334px) {
+    #skills header h1 {
+        font-size: 1.5rem;
+    }
+}

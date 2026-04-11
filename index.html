@@ -23,17 +23,17 @@
 
         <nav>
             <ul>
-                <li><a href="#about" data-i18n="header_about" class="active nav-link"></a></li>
-                <li><a href="#projects" data-i18n="header_projects" class="nav-link"></a></li>
-                <li><a href="#skills" data-i18n="header_skills" class="nav-link"></a></li>
-                <li><a href="#education" data-i18n="header_education" class="nav-link"></a></li>
-                <li><a href="#contact" data-i18n="header_contact" class="nav-link"></a></li>
+                <li><a href="#about" data-i18n="header_about" class="active nav_link"></a></li>
+                <li><a href="#projects" data-i18n="header_projects" class="nav_link"></a></li>
+                <li><a href="#skills" data-i18n="header_skills" class="nav_link"></a></li>
+                <li><a href="#education" data-i18n="header_education" class="nav_link"></a></li>
+                <li><a href="#contact" data-i18n="header_contact" class="nav_link"></a></li>
             </ul>
         </nav>
 
         <button onclick="changeLanguage()">
-            <span id="btn-pt" class="active">PT</span>
-            <span id="btn-en">EN</span>
+            <span id="btn_pt" class="active">PT</span>
+            <span id="btn_en">EN</span>
             
         </button>
         
@@ -57,7 +57,7 @@
             </div>
             
             <figure>
-                <img src="assets/img/profile-picture.jpg" data-i18n="about_img_alt" alt="">
+                <img src="assets/img/profile_picture.jpg" data-i18n="about_img_alt" alt="">
             </figure>
         </section>
 
@@ -68,9 +68,9 @@
                 <h1 data-i18n="projects_header_subtitle"></h1>
             </header>
 
-            <div>
+            <div id="projects-cards">
                 <article>
-                    <div>
+                    <div id="projects-card-description">
                         <header>
                             <p data-i18n="projects_subtitle"></p>
                             <h2 data-i18n="projects_title"></h2>
@@ -84,7 +84,7 @@
                     </div>
 
                     <figure>
-                        <img id="img-memory" src="assets/img/memory-game.png" data-i18n="projects_memory_alt" alt="">
+                        <img id="img_memory" src="assets/img/memory_game.png" data-i18n="projects_memory_alt" alt="">
                     </figure>
                 </article>
 
@@ -115,31 +115,31 @@
 
             <ul>
                 <li class="skills_card">
-                    <img src="assets/img/icon-react.png" data-i18n="skills_react_alt" alt="">
+                    <img src="assets/img/icon_react.png" data-i18n="skills_react_alt" alt="">
                     <p>REACT</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-python.png" data-i18n="skills_python_alt" alt="">
+                    <img src="assets/img/icon_python.png" data-i18n="skills_python_alt" alt="">
                     <p>PYTHON</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-database.png" data-i18n="skills_database_alt" alt="">
+                    <img src="assets/img/icon_database.png" data-i18n="skills_database_alt" alt="">
                     <p>SQL</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-java.png" data-i18n="skills_java_alt" alt="">
+                    <img src="assets/img/icon_java.png" data-i18n="skills_java_alt" alt="">
                     <p>JAVA</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-html.png" data-i18n="skills_html_alt" alt="">
+                    <img src="assets/img/icon_html.png" data-i18n="skills_html_alt" alt="">
                     <p>HTML</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-css.png" data-i18n="skills_css_alt" alt="">
+                    <img src="assets/img/icon_css.png" data-i18n="skills_css_alt" alt="">
                     <p>CSS</p>
                 </li>
                 <li class="skills_card">
-                    <img src="assets/img/icon-js.png" data-i18n="skills_js_alt" alt="">
+                    <img src="assets/img/icon_js.png" data-i18n="skills_js_alt" alt="">
                     <p>JAVASCRIPT</p>
                 </li>
             </ul>
@@ -152,14 +152,14 @@
                 <p data-i18n="education_description" class="description"></p>
             </header>
 
-            <div id="education-card">
+            <div id="education_card">
                 <img id="education_ifpr" src="assets/img/ifpr.png" data-i18n="education_ifpr_alt" alt="">
-                <span id="education-gradient"></span>
+                <span id="education_gradient"></span>
 
-                <div id="education-card-content">
+                <div id="education_card_content">
                     <div id="education_top_card">
                         <div id="education_cap_conteiner">
-                            <img id="education_studant_cap" src="assets/img/studant-cap.png" data-i18n="education_studant_cap_alt" alt="">
+                            <img id="education_studant_cap" src="assets/img/studant_cap.png" data-i18n="education_studant_cap_alt" alt="">
                         </div>
                         <div>
                             <p data-i18n="education_college_title" id="education_college_title">Instituto Federal do Paraná Campus Paranavaí</p>
@@ -169,12 +169,12 @@
 
                     <ul>
                         <li>
-                            <img src="assets/img/icon-calendar.png" alt="" data-i18n="education_calendar_alt">
+                            <img src="assets/img/icon_calendar.png" alt="" data-i18n="education_calendar_alt">
                             <p data-i18n="education_course_duration">2024 - Presente (Expectitiva 2027)</p>
                         </li>
 
                         <li>
-                            <img src="assets/img/icon-location.png" alt="" data-i18n="education_location_alt">
+                            <img src="assets/img/icon_location.png" alt="" data-i18n="education_location_alt">
                             <p data-i18n="education_course_location">Paranavaí, Paraná, Brasil</p>
                         </li>
                     </ul>
@@ -186,13 +186,13 @@
         <section id="contact"></section>
     </main>
 
-    <nav id="navbar-mobile">
+    <nav id="navbar_mobile">
         <ul>
-            <li><a href="#about" data-i18n="header_about" class="active nav-link"></a></li>
-            <li><a href="#projects" data-i18n="header_projects" class="nav-link"></a></li>
-            <li><a href="#skills" data-i18n="header_skills" class="nav-link"></a></li>
-            <li><a href="#education" data-i18n="header_education" class="nav-link"></a></li>
-            <li><a href="#contact" data-i18n="header_contact" class="nav-link"></a></li>
+            <li><a href="#about" data-i18n="header_about" class="active nav_link"></a></li>
+            <li><a href="#projects" data-i18n="header_projects" class="nav_link"></a></li>
+            <li><a href="#skills" data-i18n="header_skills" class="nav_link"></a></li>
+            <li><a href="#education" data-i18n="header_education" class="nav_link"></a></li>
+            <li><a href="#contact" data-i18n="header_contact" class="nav_link"></a></li>
         </ul>
     </nav>
 

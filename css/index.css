@@ -21,11 +21,12 @@ body, p {
     margin: 0;
 }
 
-main {
-    padding-bottom: 4rem;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
+@media (max-width: 995px) {
+    main {
+        padding-bottom: 4rem;
+    }
+}
