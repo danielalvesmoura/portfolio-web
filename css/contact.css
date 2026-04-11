@@ -119,6 +119,7 @@
 
 .form_content .input_error {
     color: red;
+    min-height: 18px;
 }
 
 #submit_message {

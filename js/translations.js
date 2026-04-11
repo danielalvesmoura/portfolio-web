@@ -68,7 +68,9 @@ export const translations = {
         form_name_placeholder: 'Digite seu nome completo',
         form_email_placeholder: 'exemplo@email.com',
         form_subject_placeholder: 'Ex: Dúvida sobre a plataforma',
-        form_message_placeholder: 'Descreva suas necessidades...'
+        form_message_placeholder: 'Descreva suas necessidades...',
+
+        footer_github_alt: 'Ícone do GitHub'
     },
 
     en: {
@@ -141,6 +143,8 @@ export const translations = {
         form_name_placeholder: 'Enter your full name',
         form_email_placeholder: 'example@email.com',
         form_subject_placeholder: 'Ex: Question about the platform',
-        form_message_placeholder: 'Describe your needs...'
+        form_message_placeholder: 'Describe your needs...',
+
+        footer_github_alt: 'GitHub icon'
     }
 }

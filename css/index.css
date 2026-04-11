@@ -30,3 +30,12 @@ html {
         padding-bottom: 4rem;
     }
 }
+
+.bg-texture {
+    background-image:
+        radial-gradient(circle, #1F2A3F 1px, transparent 1px),
+        radial-gradient(circle, #1F2A3F 1px, transparent 1px);
+
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+}

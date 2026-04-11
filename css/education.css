@@ -157,6 +157,7 @@
 
     #education .description {
         margin: 0;
+        margin-bottom: 3rem;
     }
 
     #education_cap_conteiner {
