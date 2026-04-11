@@ -1,3 +1,7 @@
+(function () {
+    emailjs.init("2SR4Gft5axhHlCnfV");
+})();
+
 const textarea = document.getElementById("message");
 const form = document.getElementById("form_container");
 
@@ -47,14 +51,18 @@ form.addEventListener("submit", (event) => {
         messageError.innerHTML = "";
     }
 
-    if(nameInput.value.trim() && emailInput.value.trim() && subjectInput.value.trim() && messageInput.value.trim()) {
-        submitMessage.innerHTML = "Formulário enviado com sucesso!";
+    if(nameInput.value.trim() && emailInput.value.trim() && subjectInput.value.trim() && messageInput.value.trim() &&
+       /\S+@\S+\.\S+/.test(emailInput.value)) {
+        submitMessage.innerHTML = "Mensagem enviada com sucesso!";
         submitMessage.classList.remove("error");
+
+        emailjs.sendForm("service_teste", "template_k31s2la", "#form_container");
+
         form.reset();
     } else {
         submitMessage.innerHTML = "Por favor, preencha todos os campos.";
         submitMessage.classList.add("error");
     }
 
-
 });
+

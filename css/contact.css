@@ -31,7 +31,7 @@
 }
 
 #contact img {
-    height: 3rem;
+    height: 2rem;
 }
 
 #contact ul {
@@ -77,6 +77,10 @@
     padding: 1rem 2rem;
 }
 
+.form_field textarea {
+    resize: vertical;
+}
+
 .form_content {
     padding: 2rem;
     border: 2px solid var(--main-blue);
@@ -101,6 +105,16 @@
     font-weight: 900;
     font-size: 1.3rem;
     border-radius: .5rem;
+    transition: 0.2s;
+}
+
+.form_content button:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.form_content button:active {
+    transform: scale(0.99);
 }
 
 .form_content .input_error {
@@ -113,4 +127,16 @@
 
 #submit_message.error {
     color: red;
+}
+
+@media (min-width: 1200px) {
+    #contact {
+        display: flex;
+        flex-direction: row;
+        padding: 6rem 6rem;
+    }
+
+    #contact article {
+        width: 50%;
+    }
 }
