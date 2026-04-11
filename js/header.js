@@ -1,7 +1,7 @@
 const navbar = document.getElementById('navbar');
 
 const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".nav-link");
+const navLinks = document.querySelectorAll(".nav_link");
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > 0) {
@@ -27,11 +27,10 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.6, // quanto da seção precisa estar visível
+    threshold: 0.3, // quanto da seção precisa estar visível
   }
 );
 
 sections.forEach((section) => {
   observer.observe(section);
 });
-
